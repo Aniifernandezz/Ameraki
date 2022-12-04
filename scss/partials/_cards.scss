@@ -1,0 +1,16 @@
+.card{
+    &:hover{
+    border: $color-principal 0.2em solid;
+    transform: scale(1.03);
+    }
+}
+
+.bg__card{
+    background: #6379ff;  
+    background: -webkit-linear-gradient(to right, #6379ff, #81a4ff);  
+    background: linear-gradient(to right, #6379ff, #81a4ff); 
+}
+
+.bg__title{
+    color: white;
+}
